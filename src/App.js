@@ -5,6 +5,8 @@ import './App.css';
 //import Akash from './components/Hoc/Akash';
 //import Ajay from './components/Hoc2/Ajay';
 import { Parent } from './components/pureComponent/Parent';
+import UseEffectCheck from './components/useEffectcheck';
+import Memo from './components/memo';
 function App() {
   return (
     <div className="App">
@@ -14,7 +16,9 @@ function App() {
         <Ajay />
         <Akash /> */}
         {/* <Ajay /> */}
-        <Parent />
+        {/* <Parent /> */}
+        {/* <UseEffectCheck /> */}
+        <Memo />
       </header>
     </div>
   );
